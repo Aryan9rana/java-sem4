@@ -13,13 +13,13 @@ System.out.println("enter n:");
 n=sc.nextInt();
 int[]arr= new int [n];
 for(int i=0;i<n;i++){
-System.out.print("enter array element: ");
-arr[i]=sc.nextInt();
+arr[i]=i;
 }
 for(int i=0;i<n;i++)
-System.out.println(arr[i]+" ");
-
+System.out.print(arr[i]+" ");
+System.out.println();
 try{
+System.out.println("enter 2 array indexes: ");
 int a=sc.nextInt();
 int b=sc.nextInt();
 System.out.println(arr[a]/arr[b]);

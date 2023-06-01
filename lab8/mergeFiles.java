@@ -22,6 +22,7 @@ public static void main(String args[])
             pw.println(line);
             line=buf2.readLine();
         }
+        System.out.println("files merges into main.txt");
         pw.flush();
         buf1.close();
         buf2.close();

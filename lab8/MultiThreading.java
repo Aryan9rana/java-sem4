@@ -12,13 +12,13 @@ public void run(){
  class myThread2 extends Thread{
 public void run(){
     for(int i=1;i<=5;i++){
-        System.out.println("aryan");
+        System.out.print("aryan");
     }
 }}
  class myThread3 extends Thread{
 public void run(){
     for(int i=1;i<=10;i++){
-        System.out.println("JAVA");
+        System.out.print("JAVA");
     }
 }}
 
